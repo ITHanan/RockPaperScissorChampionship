@@ -12,8 +12,11 @@ import {
   CyclePlayer,
   CounterPlayer,
   AdaptivePlayer,
+  GabbzPlayer,
+  RahelPlayer,
+  AlexanderPlayer,
+  DorsasPlayer
 } from "./players";
-import { GabbzPlayer } from "./players/GabbzPlayer";
 
 /**
  * STUDENTS: Import your player here and add it to the playerList array below!
@@ -28,8 +31,13 @@ function App() {
     new RockPlayer(),
     new CyclePlayer(),
     new CounterPlayer(),
+    new AlexanderPlayer(),
     new AdaptivePlayer(),
     new GabbzPlayer(),
+    new DorsasPlayer(),
+    new RahelPlayer(),
+
+
     /**
      * STUDENTS: Add your player instance here!
      * Example:
@@ -47,10 +55,9 @@ function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [showUnauthorizedMessage, setShowUnauthorizedMessage] = useState(false);
   const [targetTime] = useState(() => {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    tomorrow.setHours(15, 0, 0, 0);
-    return tomorrow;
+    const today = new Date();
+    today.setHours(15, 0, 0, 0);
+    return today;
   });
 
   // Initialize tournament
