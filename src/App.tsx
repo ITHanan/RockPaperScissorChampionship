@@ -12,6 +12,7 @@ import {
   CyclePlayer,
   CounterPlayer,
   AdaptivePlayer,
+  RahelPlayer,
 } from './players';
 
 /**
@@ -28,6 +29,9 @@ function App() {
     new CyclePlayer(),
     new CounterPlayer(),
     new AdaptivePlayer(),
+    new RahelPlayer(),
+
+
     /**
      * STUDENTS: Add your player instance here!
      * Example:
