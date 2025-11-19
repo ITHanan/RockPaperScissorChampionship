@@ -15,7 +15,7 @@ import {
   RahelPlayer,
   AlexanderPlayer,
 } from './players';
-
+import { DorsasPlayer } from './players';
 /**
  * STUDENTS: Import your player here and add it to the playerList array below!
  * Example:
@@ -31,6 +31,7 @@ function App() {
     new CounterPlayer(),
     new AlexanderPlayer(),
     new AdaptivePlayer(),
+    new DorsasPlayer(),
     new RahelPlayer(),
 
 

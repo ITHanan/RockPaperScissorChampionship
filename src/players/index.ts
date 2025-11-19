@@ -17,3 +17,4 @@ export { AlexanderPlayer } from './AlexanderPlayer';
  * Example:
  * export { MyAwesomePlayer } from './MyAwesomePlayer';
  */
+export { DorsasPlayer } from './DorsasPlayer';
