@@ -12,6 +12,7 @@ import {
   CyclePlayer,
   CounterPlayer,
   AdaptivePlayer,
+  HanansPlayer,
 } from './players';
 
 /**
@@ -28,6 +29,7 @@ function App() {
     new CyclePlayer(),
     new CounterPlayer(),
     new AdaptivePlayer(),
+    new HanansPlayer(),
     /**
      * STUDENTS: Add your player instance here!
      * Example:
