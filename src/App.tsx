@@ -45,10 +45,9 @@ function App() {
   const [isAuthorized, setIsAuthorized] = useState(false);
   const [showUnauthorizedMessage, setShowUnauthorizedMessage] = useState(false);
   const [targetTime] = useState(() => {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    tomorrow.setHours(15, 0, 0, 0);
-    return tomorrow;
+    const today = new Date();
+    today.setHours(15, 0, 0, 0);
+    return today;
   });
 
   // Initialize tournament
