@@ -8,6 +8,8 @@ export { RockPlayer } from './RockPlayer';
 export { CyclePlayer } from './CyclePlayer';
 export { CounterPlayer } from './CounterPlayer';
 export { AdaptivePlayer } from './AdaptivePlayer';
+export { RahelPlayer } from './RahelPlayer';
+
 export { AlexanderPlayer } from './AlexanderPlayer';
 
 /**
