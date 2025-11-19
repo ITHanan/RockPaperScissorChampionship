@@ -13,7 +13,7 @@ import {
   CounterPlayer,
   AdaptivePlayer,
 } from './players';
-
+import { DorsasPlayer } from './players';
 /**
  * STUDENTS: Import your player here and add it to the playerList array below!
  * Example:
@@ -28,6 +28,7 @@ function App() {
     new CyclePlayer(),
     new CounterPlayer(),
     new AdaptivePlayer(),
+    new DorsasPlayer(),
     /**
      * STUDENTS: Add your player instance here!
      * Example:
