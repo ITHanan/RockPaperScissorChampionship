@@ -8,6 +8,7 @@ export { RockPlayer } from './RockPlayer';
 export { CyclePlayer } from './CyclePlayer';
 export { CounterPlayer } from './CounterPlayer';
 export { AdaptivePlayer } from './AdaptivePlayer';
+export { IsakoDavidPlayer } from './IsakoDavidPlayer';
 
 /**
  * STUDENTS: Import and add your player class here!
