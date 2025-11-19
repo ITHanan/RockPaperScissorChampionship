@@ -10,6 +10,7 @@ export { CounterPlayer } from './CounterPlayer';
 export { AdaptivePlayer } from './AdaptivePlayer';
 export { RahelPlayer } from './RahelPlayer';
 
+export { AlexanderPlayer } from './AlexanderPlayer';
 
 /**
  * STUDENTS: Import and add your player class here!
